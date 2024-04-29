@@ -282,7 +282,7 @@ namespace TestProject
         }
         
         private static void SerializeDeserializeNullableTuple<T, U>(T arg1, U arg2)
-        { 
+        {
             ReadWriteMessage msg = new ReadWriteMessage();
             TupleNullableStruct<T, U> writeStruct = new TupleNullableStruct<T, U>
             {
