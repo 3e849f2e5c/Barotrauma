@@ -7,6 +7,7 @@ using Barotrauma.Networking;
 using FluentAssertions;
 using FsCheck;
 using Microsoft.Xna.Framework;
+using SharpFont;
 using Xunit;
 
 namespace TestProject
@@ -281,7 +282,7 @@ namespace TestProject
         }
         
         private static void SerializeDeserializeNullableTuple<T, U>(T arg1, U arg2)
-        {
+        { 
             ReadWriteMessage msg = new ReadWriteMessage();
             TupleNullableStruct<T, U> writeStruct = new TupleNullableStruct<T, U>
             {
