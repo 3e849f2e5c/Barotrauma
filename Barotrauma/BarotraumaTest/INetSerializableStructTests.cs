@@ -7,6 +7,7 @@ using Barotrauma.Networking;
 using FluentAssertions;
 using FsCheck;
 using Microsoft.Xna.Framework;
+using SharpFont;
 using Xunit;
 
 namespace TestProject
